@@ -58,3 +58,10 @@ print("This is split function : ", msg.split())
 x = "hi this is a string "
 
 print("split with specific letter", x.split('i'))
+
+print("This is string {}".format('INSERTED'))
+
+print("{0} {1} {2}".format('A','B','C'))
+
+print("{f} {k}".format(f='fox',k='kite'))
+print('{}'.format('Python rules!'))
